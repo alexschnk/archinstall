@@ -769,7 +769,7 @@ read main_menu
       case "$main_menu" in
          "1" )
          mkdir /mnt/boot/efi ; mount /dev/$boot /mnt/boot/efi
-         Uefi="grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=ShefOS --no-nvram --removable /dev/$disk"
+         Uefi="grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=Unix --no-nvram --removable /dev/$disk"
          ;;
          "2" )
          mount /dev/$boot  /mnt/boot/
