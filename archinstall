@@ -1291,7 +1291,7 @@ displaymanager='systemctl enable sddm --force'
           "6" )
 update='pacman -Syy'
 
-desktop='pacstrap -i /mnt xorg xorg-server xorg-xwayland plasma cups konsole dolphin kmix discover cups sddm plasma-wayland-session sddm-kcm packagekit-qt5 bluez bluez-utils --noconfirm'
+desktop='pacstrap -i /mnt xorg xorg-server xorg-xwayland plasma cups konsole dolphin discover cups sddm plasma-wayland-session sddm-kcm packagekit-qt5 bluez bluez-utils --noconfirm'
 
 displaymanager='systemctl enable sddm --force'
           ;;
